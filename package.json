@@ -20,5 +20,8 @@
     "mongoose": "^7.3.2",
     "nodemon": "^2.0.22"
   },
+  "engines": {
+    "node": ">=14.20.1"
+  },
   "keywords": []
 }
