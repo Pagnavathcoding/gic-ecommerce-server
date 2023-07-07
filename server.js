@@ -13,9 +13,7 @@ app.use(cookieParser());
 
 app.use("/auth", UserRouter)
 // Database
-mongoose.connect(process.env.DATABASE_CONNECTION).then(() => {
-    console.log("Connected")
-})
+mongoose.connect(process.env.DATABASE_CONNECTION.toString());
 
 
 app.post("/post/products", (req, res) => {
