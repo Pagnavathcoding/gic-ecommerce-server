@@ -1,3 +1,3 @@
 const mongoose = require("mongoose");
 
-mongoose.connect(process.env.DATABASE_CONNECTION);
+mongoose.connect("mongodb+srv://pagnavath:DwJkPDv69nVcN4mU@cluster0.dl6wikn.mongodb.net/?retryWrites=true&w=majority");
