@@ -46,7 +46,7 @@ app.delete("/products/:id", (req, res) => {
     })
 })
 app.get("/", (req, res) => {
-    return res.send("What the hell?")
+    return res.send("Server...")
 })
 
 
